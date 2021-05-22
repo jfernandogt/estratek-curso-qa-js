@@ -29,3 +29,26 @@ npx husky add .husky/commit-msg 'npx --no-install commitlint --edit "$1"'
 # test
 echo 'feat(prueba): Esto es una prueba' | ./node_modules/.bin/commitlint 
 ```
+
+# Standard version
+1. Instalar standard-version
+```bash
+npm i --save-dev standard-version
+```
+2. Añadir script
+```javascript
+{
+  "scripts": {
+    "release": "standard-version"
+  }
+}
+```
+3. Ejecutar primer release
+```bash
+# npm run script
+npm run release -- --first-release
+# global bin
+standard-version --first-release
+# npx
+npx standard-version --first-release
+```
