@@ -1,0 +1,16 @@
+{
+  "recommendations": [
+    "dbaeumer.vscode-eslint",
+    "esbenp.prettier-vscode",
+    "eamodio.gitlens",
+    "stylelint.vscode-stylelint",
+    "gruntfuggly.todo-tree",
+    "visualstudioexptteam.vscodeintellicode",
+    "henrynguyen5-vsc.vsc-nvm",
+    "formulahendry.auto-close-tag",
+    "formulahendry.auto-rename-tag",
+    "vscode-icons-team.vscode-icons",
+    "oliversturm.fix-json",
+    "stevencl.adddoccomments"
+  ]
+}
