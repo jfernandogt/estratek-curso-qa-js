@@ -11,7 +11,7 @@ export default function Home() {
 
       <main>
         <h1 className="title">
-          Bienvenidos a Estrate.
+          Bienvenidos a Estratek.
         </h1>
 
         <p className="description">
