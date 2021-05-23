@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.1.0](https://github.com/jfernandogt/estratek-curso-qa-js/compare/v1.0.0...v1.1.0) (2021-05-23)
+
+
+### Features
+
+* **core:** Aniadir Bienvenida a Estratek ([f0a26da](https://github.com/jfernandogt/estratek-curso-qa-js/commit/f0a26da952b91cdc7e88d4c57ed790218fe63d6a))
+
 ## 1.0.0 (2021-05-23)
 
 
