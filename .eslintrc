@@ -1,32 +1,36 @@
 {
-    // configuraciones generales eslint
-    "parserOptions": {
-        "ecmaVersion":2021,
-        "sourceType": "module",
-        "ecmaFeatures": {
-            "jsx": true
-        }
-    },
-    "settings": {
-        "react": {
-            "version": "detect"
-        }
-    },
+  // configuraciones generales eslint
+  "parserOptions": {
+    "ecmaVersion": 2021,
+    "sourceType": "module",
+    "ecmaFeatures": {
+      "jsx": true
+    }
+  },
+  "settings": {
+    "react": {
+      "version": "detect"
+    }
+  },
 
-    // configuraciones de reglas (es mejor extender de configuraciones ya realizadas por algún plugin)
-    "rules": {
-        // "valid-typeof":"error",
-        // "no-const-assign": "error",
-        // "no-undef": "error" // tricky
-        "react/react-in-jsx-scope": 0
-    },
+  // configuraciones de reglas (es mejor extender de configuraciones ya realizadas por algún plugin)
+  "rules": {
+    // "valid-typeof":"error",
+    // "no-const-assign": "error",
+    // "no-undef": "error" // tricky
+    "react/react-in-jsx-scope": 0
+  },
 
-    // añadir soporte para el navegador
-    "env": {
-        "browser": true,
-        "node": true,
-    },
+  // añadir soporte para el navegador
+  "env": {
+    "browser": true,
+    "node": true
+  },
 
-    // usar configuraciones generales de eslint
-    "extends": ["eslint:recommended", "plugin:react/recommended"]
+  // usar configuraciones generales de eslint
+  "extends": [
+    "eslint:recommended",
+    "plugin:react/recommended",
+    "eslint-config-prettier"
+  ]
 }

@@ -2,6 +2,7 @@ import Head from 'next/head'
 import Card from 'src/components/Card'
 
 export default function Home() {
+  console.log('hola')
   return (
     <div className="container">
       <Head>
@@ -10,9 +11,7 @@ export default function Home() {
       </Head>
 
       <main>
-        <h1 className="title">
-          Bienvenidos a Estratek.
-        </h1>
+        <h1 className="title">Bienvenidos a Estratek.</h1>
 
         <p className="description">
           Get started by editing <code>pages/index.js</code>

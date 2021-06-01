@@ -8,7 +8,11 @@
     "start": "next start",
     "prepare": "husky install",
     "release": "standard-version",
-    "lint": "eslint --fix --ignore-path .gitignore ."
+    "lint": "eslint --fix --ignore-path .gitignore .",
+    "prettier": "prettier --ignore-path .gitignore \"(src|pages)/**/*.+(js|json)\"",
+    "format": "npm run prettier -- --write",
+    "format:check": "npm run prettier -- --check",
+    "validate": "npm run format:check && npm run lint && npm run build"
   },
   "dependencies": {
     "next": "^10.0.0",
@@ -20,8 +24,10 @@
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
     "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-react": "^7.24.0",
     "husky": "^6.0.0",
+    "prettier": "^2.3.0",
     "standard-version": "^9.2.0"
   }
 }

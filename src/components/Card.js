@@ -1,4 +1,4 @@
-import PropTypes from 'prop-types';
+import PropTypes from 'prop-types'
 
 export default function Card({ href, children }) {
   return (
@@ -36,11 +36,10 @@ export default function Card({ href, children }) {
         }
       `}</style>
     </a>
-  );
+  )
 }
-
 
 Card.propTypes = {
   href: PropTypes.string.isRequired,
-  children: PropTypes.node.isRequired
+  children: PropTypes.node.isRequired,
 }
