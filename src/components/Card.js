@@ -1,3 +1,5 @@
+import PropTypes from 'prop-types';
+
 export default function Card({ href, children }) {
   return (
     <a href={href} className="card">
@@ -35,4 +37,10 @@ export default function Card({ href, children }) {
       `}</style>
     </a>
   );
+}
+
+
+Card.propTypes = {
+  href: PropTypes.string.isRequired,
+  children: PropTypes.node.isRequired
 }
