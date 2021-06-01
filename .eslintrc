@@ -24,7 +24,8 @@
   // añadir soporte para el navegador
   "env": {
     "browser": true,
-    "node": true
+    "node": true,
+    "es6": true
   },
 
   // usar configuraciones generales de eslint
