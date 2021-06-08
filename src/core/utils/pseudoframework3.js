@@ -1,7 +1,7 @@
 const sum = (a, b) => {
   return new Promise((resolve) => {
     setTimeout(() => {
-      resolve(a - b)
+      resolve(a + b)
     }, 200)
   })
 }
