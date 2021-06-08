@@ -12,7 +12,8 @@
     "prettier": "prettier --ignore-path .gitignore \"(src|pages)/**/*.+(js|json)\"",
     "format": "npm run prettier -- --write",
     "format:check": "npm run prettier -- --check",
-    "validate": "npm run format:check && npm run lint && npm run build"
+    "validate": "npm run format:check && npm run lint && npm run build",
+    "test": "jest --watch"
   },
   "dependencies": {
     "next": "^10.0.0",
@@ -23,11 +24,15 @@
   "devDependencies": {
     "@commitlint/cli": "^12.1.4",
     "@commitlint/config-conventional": "^12.1.4",
+    "@testing-library/jest-dom": "^5.13.0",
+    "@testing-library/react": "^11.2.7",
+    "@types/jest": "^26.0.23",
     "eslint": "^7.27.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-react": "^7.24.0",
     "husky": "^6.0.0",
     "jest": "^27.0.3",
+    "jest-extended": "^0.11.5",
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.0",
     "standard-version": "^9.2.0"
