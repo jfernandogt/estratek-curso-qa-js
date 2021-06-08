@@ -33,6 +33,7 @@
     "husky": "^6.0.0",
     "jest": "^27.0.3",
     "jest-extended": "^0.11.5",
+    "jest-in-case": "^1.0.2",
     "lint-staged": "^11.0.0",
     "prettier": "^2.3.0",
     "standard-version": "^9.2.0"
