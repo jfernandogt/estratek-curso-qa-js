@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Validar el listado de empleados de IT 1`] = `
+Array [
+  Object {
+    "department": "IT",
+    "name": "Fernando",
+  },
+  Object {
+    "department": "IT",
+    "name": "Carolina",
+  },
+  Object {
+    "department": "IT",
+    "name": "Marcos",
+  },
+]
+`;
