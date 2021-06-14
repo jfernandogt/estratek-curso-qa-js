@@ -22,3 +22,23 @@ test('Validar el listado de empleados de IT', () => {
   https://codewithhugo.com/abusing-jest-snapshot-tests-some-nice-use-cases/
   */
 })
+
+test('Validar el listado de empleados de IT usando inlineSnapshots', () => {
+  const empleados = obtenerEmpleadosIT()
+  expect(empleados).toMatchInlineSnapshot(`
+    Array [
+      Object {
+        "department": "IT",
+        "name": "Fernando",
+      },
+      Object {
+        "department": "IT",
+        "name": "Carolina",
+      },
+      Object {
+        "department": "IT",
+        "name": "Marcos",
+      },
+    ]
+  `)
+})
