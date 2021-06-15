@@ -4,7 +4,7 @@ export default function isPasswordAllowed(password) {
     // non-alphanumeric
     /\W/.test(password) &&
     // digit
-    // /\d/.test(password) &&
+    /\d/.test(password) &&
     // capital letter
     /[A-Z]/.test(password) &&
     // lowercase letter
