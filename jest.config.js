@@ -1,7 +1,8 @@
 module.exports = {
   testEnvironment: 'jsdom',
   collectCoverageFrom: [
-    '**/*.{js,jsx,ts,tsx}',
+    'src/**/*.{js,jsx,ts,tsx}',
+    'pages/**/*.{js,jsx,ts,tsx}',
     '!**/*.d.ts',
     '!**/node_modules/**',
   ],
@@ -18,5 +19,25 @@ module.exports = {
   moduleNameMapper: {
     '^src(.*)$': '<rootDir>/src/$1',
     '^.+\\.module\\.(css|sass|scss)$': 'identity-obj-proxy',
+  },
+  coverageThreshold: {
+    // global: {
+    //   branches: 90,
+    //   functions: 90,
+    //   statements: 90,
+    //   lines: 90,
+    // },
+    global: {
+      branches: 27,
+      functions: 42,
+      statements: 29,
+      lines: 32,
+    },
+    'src/core/ejercicios-coverage/operaciones.js': {
+      branches: 100,
+      functions: 100,
+      statements: 100,
+      lines: 100,
+    },
   },
 }
