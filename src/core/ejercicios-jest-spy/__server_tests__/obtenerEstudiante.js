@@ -1,5 +1,5 @@
-import obtenerEstudiante from './obtenerEstudiante'
-import * as randomInt from './randomInt'
+import obtenerEstudiante from '../obtenerEstudiante'
+import * as randomInt from '../randomInt'
 
 describe('Probar obtenerEstudiante', () => {
   jest.spyOn(randomInt, 'getRandomInt')

@@ -1,6 +1,7 @@
 import React from 'react'
 import { render } from '@testing-library/react'
-import Card from './Card'
+import Card from '../Card'
+import '@testing-library/jest-dom/extend-expect'
 
 test('Test Card', () => {
   // Comprobar el render
