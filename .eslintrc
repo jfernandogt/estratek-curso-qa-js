@@ -18,7 +18,8 @@
     // "valid-typeof":"error",
     // "no-const-assign": "error",
     // "no-undef": "error" // tricky
-    "react/react-in-jsx-scope": 0
+    "react/react-in-jsx-scope": 0,
+    "cypress/no-unnecessary-waiting": 0
   },
 
   // añadir soporte para el navegador
@@ -26,13 +27,15 @@
     "browser": true,
     "node": true,
     "es6": true,
-    "jest": true
+    "jest": true,
+    "mocha": true
   },
 
   // usar configuraciones generales de eslint
   "extends": [
     "eslint:recommended",
     "plugin:react/recommended",
-    "eslint-config-prettier"
+    "eslint-config-prettier",
+    "plugin:cypress/recommended"
   ]
 }
